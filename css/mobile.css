@@ -298,3 +298,33 @@ section .sub_title {
     padding-top: 32px;
     margin-bottom: 32px;
 }
+.section2 .con {}
+.section2 .con .item {}
+.section2 .con .item .item_inner {}/*여기 pc에서 display*/
+.section2 .con .item .item_inner .box01 {}
+.section2 .con .item .item_inner .box01 .cell{}
+.section2 .con .item .item_inner .box01 .cell>div {
+    padding-bottom: 40px;
+}
+.section2 .con .item .item_inner .box01 .cell>div h4{}
+.section2 .con .item .item_inner .box01 .cell>div div{}
+.section2 .con .item .item_inner .box01 .cell>div .logo_image{
+    width: 140px;
+}
+.section2 .con .item .item_inner .box01 .cell>div .icons{}
+.section2 .con .item .item_inner .box01 .cell>div .graphic{}
+.section2 .con .item .item_inner .box01 .cell>div div img{} 
+.section2 .con .item img{
+    width: 100%;
+} 
+.section2 .con .item .box02 {}
+.section2 .con .item .box02 .cell{}
+.section2 .con .item .box02 .cell h4{}
+.section2 .con .item .box02 .cell .color_sys{
+    width: 140px;
+}
+.section2 .con .item .box02 .cell .color_sys img{}
+
+.section2 .con .item {}
+.section2 .con .item h4{}
+.section2 .con .item .tit{}
