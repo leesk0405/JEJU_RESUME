@@ -34,7 +34,7 @@ header .wrap .h_txt p  {
     font-weight: 300;
 }
 .banner {
-    padding: 16px 16px 0 16px;
+    padding: 16px 16px 32px 16px;
 }
 .banner .title {}
 .banner .title h2  {
@@ -107,14 +107,21 @@ header .wrap .h_txt p  {
 section {
     padding: 0 16px;
 }
-section h2 {
+section .main_title {
     color: #F15A22;
     font-size: 1.5rem;
     margin-bottom: 16px;
 }
+/* main_title */
+section .sub_title {
+    padding-bottom: 16px;
+    font-size: 1.25rem;
+}
+/* sub_title */
 
 .section1 {
-    margin-top: 62px;
+    margin-top: 32px;
+    padding-bottom: 32px;
 }
 .section1 .row1 {}
 .section1 .row1 .con{
@@ -193,13 +200,15 @@ section h2 {
 }
 .section1 .row2 {
     margin-top: 32px;
+
 }
-.section1 .row2 h3 {
-    padding-bottom: 16px;
+.section1 .row2 .sub_title{
+    color: #666;
 }
+
 .section1 .row2 .con,.section1 .row2 .con2{
     padding: 20px;
-    background-color: #eee;
+    background-color: #f2f2f2;
     border-radius: 8px;
     margin-bottom: 16px;
     list-style: disc;
@@ -210,12 +219,40 @@ section h2 {
     padding-bottom: 8px;
     color: #888;
     width: 140px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 .section1 .row2 .con li:last-child{
     padding-bottom: 0;
 }
 .section1 .row2 .con2 p {
     color: #999;
+}
+.section1 .row3 .sub_title{
+    color: #F15A22;
+}
+.section1 .row3 .con,.section1 .row3 .con2{
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    list-style: disc;
+    /* list-style: disc; */
+}
+.section1 .row3 .con li{
+    text-align: center;
+    padding-bottom: 8px;
+    color: #888;
+    width: 140px;
+    margin: 0 auto;   
+}
+.section1 .row3 .con li:last-child{
+    padding-bottom: 0;
+}
+.section1 .row3 .con2 p {
+    color: #999;
+}
+/* section1 */
+.section2 {
+    padding-top: 32px;
+    margin-bottom: 32px;
 }

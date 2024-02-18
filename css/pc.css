@@ -30,10 +30,6 @@
     display: flex;
     flex-direction: row-reverse;
   }
-  .banner .con .sub {
-    align-self: flex-end;
-    margin-bottom: 80px;
-  }
   .banner .con  .moc {
   }
   .banner .con  .moc .pic{
@@ -42,6 +38,39 @@
     margin-left:auto ;
     margin-right: 30px;
   }
+  .banner .con .sub {
+    align-self: flex-end;
+    margin-bottom: 80px;
+  }
+  .banner .con .sub .web {
+    border-radius: 60px;
+  }
+
+  section .main_title {
+    margin-bottom: 44px;
+}
+/* main_title */
+.section1 .sub_title {
+    padding-bottom: 32px;
+}
+/* sub_title */
+  .section1{
+    max-width: 1440px;
+    margin:  0 auto;
+  }
+  .section1 .row1 {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .section1 .row1 .con {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section1 .row1 .con .item{
+    /* width: calc((100% - 300px)/2); */
+  }
+  .section1 .row1 .con  .box{width: calc((100% - 200px) * 0.45);}
+  .section1 .row1 .con  .txt{width: calc((100% - 200px) * 0.55);}
 
   .section1 .row2 .con{
     padding: 20px;
