@@ -36,16 +36,22 @@ header .wrap .h_txt p  {
     font-weight: 300;
 }
 .banner {
-    padding: 16px 16px 60px 16px;
+    padding: 16px 16px 80px 16px;
 }
 .banner .title {}
 .banner .title h2  {
     font-weight: 800;
-    font-size: 1.125rem;/*18px*/
+    font-size: 1.5rem;/*20px*/
     color: #333;
 }
 .banner .title h2 span {
     color: #F15A22;
+    background-image: linear-gradient(
+        rgba(0 0 0 / 0) 60%,
+        #fde9e2 60%,
+        #fde9e2 90%,
+        #ffff 90%
+    );
 }
 .banner .title p {
     color: #6D6E71;
@@ -115,10 +121,19 @@ section .main_title {
     font-size: 1.8rem;
     margin-bottom: 16px;
 }
+section .main_title span {
+    background-image: linear-gradient(
+        rgba(0 0 0 / 0) 70%,
+        #fde9e2 70%
+    );
+}
 /* main_title */
 section .sub_title {
     padding-bottom: 16px;
     font-size: 1.25rem;
+}
+section .sub_title span {
+  
 }
 /* sub_title */
 
@@ -141,8 +156,12 @@ section .sub_title {
 }
 .section1 .row1 .con .box{
    padding: 30px 0;
-   background-color: #fde9e2;
-   border-radius: 8px;
+   /* background-color: #fde9e2; */
+   background-image: linear-gradient(
+    90deg,
+    rgba(241 90 41/.02) 0%, #fde9e2 100% /*fcd7ca 35*/ /*fffbfa 45*/ /*fde9e2 40*/
+   );
+   border-radius: 1.5rem;
 }
 .section1 .row1 .con .box .box_inner{
 
@@ -257,7 +276,10 @@ section .sub_title {
 }
 .section1 .row3 .con,.section1 .row3 .con2{
     padding: 20px;
-    background-color: #fcece4;
+    background-image: linear-gradient(
+    90deg,
+    rgba(241 90 41/.02) 0%, #fcd7ca  100% /*fcd7ca 35*/ /*fffbfa 45*/ /*fde9e2 40*/
+   );
     border-radius: 8px;
     margin-bottom: 16px;
     list-style: disc;
@@ -265,6 +287,7 @@ section .sub_title {
 }
 .section1 .row3 .con2 {
     background-color: #f58220;
+    background-image: unset;
   }
 .section1 .row3 .con li{
     text-align: center;
@@ -297,8 +320,8 @@ section .sub_title {
 }
 /* section1 */
 .section2 {
-    padding-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 40px;
+    padding-bottom: 40px;
 }
 .section2 .con {}
 .section2 .con .item {}
@@ -337,6 +360,9 @@ section .sub_title {
     margin-bottom: 16px;
     color: #F15A22;
 }
+.section2 .con .item .tit span {
+    font-weight: 400;
+}
 .section2 .con .item .obj{
     width: 100%;
 }
@@ -348,7 +374,7 @@ section .sub_title {
     margin-bottom: 1rem;
 }.section2 .con .item .obj .unit>ul{
     padding: 12px;
-    background-color: #eee;
+    background-color: #f2f2f2;
     border-radius: 0.625rem;
 }
 .section2 .con .item .obj .unit>ul li{}
@@ -357,4 +383,9 @@ section .sub_title {
 }
 .section2 .con .item .obj .unit>ul li .set li:not(:first-child){
     margin-left: 16px;
+}
+/* section2 */
+.section3 {
+        margin-top: 40px;
+        padding-bottom: 40px;
 }
