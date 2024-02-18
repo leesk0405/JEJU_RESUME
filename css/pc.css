@@ -9,8 +9,8 @@
     right:0;
     z-index: -1;
   }
-  .banner {
-    max-width: 1440px;
+  .banner,.section1,.section2 {
+    max-width: 1380px;
     margin: 0 auto;
     padding-bottom: 130px;
   }
@@ -22,9 +22,11 @@
   .banner .title h2{
     font-size: 3.3rem/*60px*/;
     font-weight: 900;
+    line-height: 1;
   }
   .banner .title p {
     font-size: 1.25rem;
+    padding-top: 4px;
   }
   .banner .con {
     margin-top: 0;
@@ -34,10 +36,10 @@
   .banner .con  .moc {
   }
   .banner .con  .moc .pic{
-    width: 694px;
+    width: 680px;
     /* margin: 0 auto; */
     margin-left:auto ;
-    margin-right: 30px;
+    margin-right:0;
   }
   .banner .con .sub {
     align-self: flex-end;
@@ -56,8 +58,6 @@
 }
 /* sub_title */
   .section1{
-    max-width: 1440px;
-    margin:  0 auto;
   }
   .section1 .row1 {
     max-width: 800px;
@@ -98,5 +98,78 @@
   .section1 .row3 .con2 p span{
     font-size: 1.125rem;
   }
+  /* section1 */
+  .section2{
+  }
+  .section2 .con {}
+  .section2 .con .item {}
+  .section2 .con .item .item_inner {
+    display: flex;
+    justify-content: space-between;
+  }/*여기 pc에서 display*/
+  .section2 .con .item .item_inner .box01 {}
+  .section2 .con .item .item_inner .box01 .cell{}
+  .section2 .con .item .item_inner .box01 .cell>div {
+  }
+  .section2 .con .item .sub_title{
+    color: #333;
+  }
+  .section2 .con .gap {
+      margin-bottom: 2.5rem;
+  }
+  .section2 .con .item .item_inner .box01 .cell>div h4{}
+  .section2 .con .item .item_inner .box01 .cell>div div{}
+  .section2 .con .item .item_inner .box01 .cell>div .logo_image{
+      width: 140px;
+  }
+  .section2 .con .item .item_inner .box01 .cell>div .logo_image img {
+    width: 100%;
+  }
+  .section2 .con .item .item_inner .box01 .cell>div .icons{}
+  .section2 .con .item .item_inner .box01 .cell>div .graphic{}
+  .section2 .con .item .item_inner .box01 .cell>div div img{} 
+  .section2 .con .item .box01 img{
+      width: 84%;
+  } 
+  .section2 .con .item .box02 {}
+  .section2 .con .item .box02 .cell{
+  }
+  .section2 .con .item .box02 .cell h4{}
+  .section2 .con .item .box02 .cell .color_sys{
+      width: 200px;
+  }
+  .section2 .con .item .box02 .cell .color_sys img{}
+
+  .section2 .con .item {}
+.section2 .con .item h4{}
+.section2 .con .item .tit{
+    margin-bottom: 16px;
+}
+.section2 .con .item .obj{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 32px; */
+}
+.section2 .con .item .obj .unit{
+  width: calc(50% - 16px);
+}
+.section2 .con .item .obj .unit ul li {
+}
+.section2 .con .item .obj .unit>ul:first-child {
+
+}
+.section2 .con .item .obj .unit>ul{
+    padding: 12px;
+    background-color: #eee;
+    border-radius: 0.625rem;
+}
+.section2 .con .item .obj .unit>ul li{}
+.section2 .con .item .obj .unit>ul li .set{
+    display: flex;
+}
+.section2 .con .item .obj .unit>ul li .set li:not(:first-child){
+    margin-left: 16px;
+}
+  
 
 }/*pc 끝 */

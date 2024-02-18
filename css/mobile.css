@@ -21,14 +21,16 @@ header .wrap {
 
 }
 header .wrap h1  {
-    width: 5rem;/*80px*/
+    width: 7rem;/*px*/
 }
 header .wrap h1 a {}
 header .wrap h1 a img {
     width: 100%;
     vertical-align: top;
 }
-header .wrap .h_txt  {}
+header .wrap .h_txt  {
+    text-align: right;
+}
 header .wrap .h_txt p  {
     color: #fff;
     font-weight: 300;
@@ -110,7 +112,7 @@ section {
 }
 section .main_title {
     color: #F15A22;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 16px;
 }
 /* main_title */
@@ -304,7 +306,10 @@ section .sub_title {
 .section2 .con .item .item_inner .box01 {}
 .section2 .con .item .item_inner .box01 .cell{}
 .section2 .con .item .item_inner .box01 .cell>div {
-    padding-bottom: 40px;
+   
+}
+.section2 .con .gap {
+    margin-bottom: 2.5rem;
 }
 .section2 .con .item .item_inner .box01 .cell>div h4{}
 .section2 .con .item .item_inner .box01 .cell>div div{}
@@ -327,4 +332,29 @@ section .sub_title {
 
 .section2 .con .item {}
 .section2 .con .item h4{}
-.section2 .con .item .tit{}
+.section2 .con .item .tit{
+    font-size:1.5rem ;
+    margin-bottom: 16px;
+    color: #F15A22;
+}
+.section2 .con .item .obj{
+    width: 100%;
+}
+.section2 .con .item .obj .unit{}
+.section2 .con .item .obj .unit ul li {
+    line-height: 1.8;
+}
+.section2 .con .item .obj .unit>ul:first-child {
+    margin-bottom: 1rem;
+}.section2 .con .item .obj .unit>ul{
+    padding: 12px;
+    background-color: #eee;
+    border-radius: 0.625rem;
+}
+.section2 .con .item .obj .unit>ul li{}
+.section2 .con .item .obj .unit>ul li .set{
+    display: flex;
+}
+.section2 .con .item .obj .unit>ul li .set li:not(:first-child){
+    margin-left: 16px;
+}
