@@ -49,7 +49,7 @@ header .wrap .h_txt p  {
     color: #6D6E71;
 }
 .banner .con {
-    margin-top: 40px;/*위치수정*/
+    margin-top: 44px;/*위치수정*/
 }
 .banner .con  .item{}
 .banner .con  .moc{
@@ -82,7 +82,7 @@ header .wrap .h_txt p  {
 .banner .con  .sub .txt .tool span img {
     width: 80%;
 }
-.banner .con  .sub .arrow01 {
+.banner .con  .sub .web {
     display:block;
     text-align: center;
     margin-top: 45px;
@@ -93,15 +93,15 @@ header .wrap .h_txt p  {
     transition: background-color .3s;
     
 }
-.banner .con  .sub .arrow01 span {
+.banner .con  .sub .web span {
     color: #F15A22;
     font-size: 1.375rem;/*22px*/
     font-weight: 500;
 }
-.banner .con  .sub .arrow01:hover {
+.banner .con  .sub .web:hover {
     background-color: #F15A22;
 }
-.banner .con  .sub .arrow01:hover span {
+.banner .con  .sub .web:hover span {
     color: #fff;
 }
 section {
@@ -128,7 +128,7 @@ section h2 {
    width: calc(50% - 8px);
 }
 .section1 .row1 .con .box{
-   padding: 20px 0;
+   padding: 30px 0;
    background-color: #fff1ec;
    border-radius: 8px;
 }
@@ -136,34 +136,39 @@ section h2 {
 
 }
 .section1 .row1 .con .box .box_inner .air{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+}
+.section1 .row1 .con .box .box_inner .air a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 .section1 .row1 .con .box .box_inner .air img{
-    width: 60%;
+    width: 64%;
+    transition: all .3s;
+
+}
+.section1 .row1 .con .item:hover img {
+    transform: scale(1.2);
 }
 .section1 .row1 .con .txt{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
     text-align: center;
 }
 .section1 .row1 .con .txt p{
     color: #666;
-    position: relative;
 }
-.section1 .row1 .con .txt>p::after{
-    content: "";
+.section1 .row1 .con .txt .arrow01 span{
     display: block;
-    /* margin: 0 auto; */
-    position: absolute;
-    top:200%;
-    left:50%;
-    transform: translateX(-50%);
-    width: 0.75rem;
-    height: 0.75rem;
+    margin: 0 auto;
+    /* transform: translate(-50%,-50%); */
+    width:  0.875rem;/*14*/
+    height:  0.875rem;/*14*/
     transform: rotate(45deg);
     border-bottom: 2px solid #F15A22;
     border-right: 2px solid #F15A22;
