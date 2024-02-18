@@ -12,6 +12,7 @@
   .banner {
     max-width: 1440px;
     margin: 0 auto;
+    padding-bottom: 130px;
   }
   .banner .title {
     position: relative;
@@ -61,6 +62,8 @@
   .section1 .row1 {
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 130px;
+   padding-bottom: 130px;
   }
   .section1 .row1 .con {
     display: flex;
@@ -72,23 +75,28 @@
   .section1 .row1 .con  .box{width: calc((100% - 200px) * 0.45);}
   .section1 .row1 .con  .txt{width: calc((100% - 200px) * 0.55);}
 
-  .section1 .row2 .con{
+  .section1 .row2 .con, .section1 .row3 .con{
     padding: 20px;
-    background-color: #eee;
+    /* background-color: #eee; */
     border-radius: 8px;
     margin-bottom: 16px;
     list-style: disc;
     display: flex;
     /* list-style: disc; */
 }
+.section1 .row3 .con {
+  
+}
 
-.section1 .row2 .con li{
+.section1 .row2 .con li, .section1 .row3 .con li{
   width: auto;
   }
-  .section1 .row2 .con2 p {
+
+  .section1 .row2 .con2 p{
     text-align: center;
   }
-  .arrow01 {
-    width: 100%;
+  .section1 .row3 .con2 p span{
+    font-size: 1.125rem;
   }
+
 }/*pc 끝 */
