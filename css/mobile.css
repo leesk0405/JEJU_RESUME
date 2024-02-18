@@ -21,7 +21,7 @@ header .wrap {
 
 }
 header .wrap h1  {
-    width: 7rem;/*px*/
+    width: 5rem;/*px*/
 }
 header .wrap h1 a {}
 header .wrap h1 a img {
@@ -36,7 +36,7 @@ header .wrap .h_txt p  {
     font-weight: 300;
 }
 .banner {
-    padding: 16px 16px 80px 16px;
+    padding: 16px 16px 60px 16px;
 }
 .banner .title {}
 .banner .title h2  {
@@ -138,8 +138,8 @@ section .sub_title span {
 /* sub_title */
 
 .section1 {
-    margin-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 .section1 .row1 {
     padding-bottom: 60px;
@@ -257,7 +257,7 @@ section .sub_title span {
 }
 /* row2 */
 .section1 .arrow02{
-    width: 2rem;
+    width: 1.5rem;
     height: 2rem;
     margin: 0 auto;
     margin-top: 0.625rem;
@@ -303,7 +303,7 @@ section .sub_title span {
     color: #fff;
     font-size: 0.875rem;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
 }
 .section1 .row3 .con2 p span {
     background-color: #fff;
@@ -320,8 +320,8 @@ section .sub_title span {
 }
 /* section1 */
 .section2 {
-    margin-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 .section2 .con {}
 .section2 .con .item {}

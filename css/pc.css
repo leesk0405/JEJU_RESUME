@@ -92,7 +92,7 @@
   width: auto;
   }
 
-  .section1 .row2 .con2 p{
+  .section1 .row2 .con2 p, .section1 .row3 .con2 p {
     text-align: center;
   }
   .section1 .row3 .con2 p span{
