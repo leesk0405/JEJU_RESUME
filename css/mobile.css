@@ -1,3 +1,14 @@
+section{}
+section .row{
+    display: flex;
+    flex-direction: column;
+}
+@media screen {
+    section .row{flex-direction: row;}
+    section .row:nth-child(2n) {flex-direction: row-reverse;}
+}
+section .row .thumb{}
+section .row .info{}
 
 header {
     padding: 16px 16px 0 16px;
