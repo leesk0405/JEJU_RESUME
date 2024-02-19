@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .txt{
+           /* transform: translateX();  */
+           position: absolute;
+           left: 100%;
+           animation: txtFloating 5s linear infinite;
+           text-wrap: nowrap;
+        }
+        @keyframes txtFloating {
+            0%{left: 100%; transform: translateX(0);}
+            100%{left: 0; transform: translateX(-100%);}
+        }
+
+        .txt2{
+            display: flex;
+            background-color: #ccc;
+            justify-content: space-around;
+            align-items: center;
+            text-wrap: nowrap;
+            width: 200%;
+            position: absolute;
+            left: 0;
+            top: 50px;
+            animation: txtFloating2 5s linear infinite;
+        }
+        @keyframes txtFloating2 {
+            0%{left: 0}
+            100%{left: -100%}
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="txt">
+            동해물과 백두산이 마르고 닳도록
+        </div>
+
+        <div class="txt2">
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+            <span>동해물과 백두산이</span>
+        </div>
+    </section>
+</body>
+</html>
