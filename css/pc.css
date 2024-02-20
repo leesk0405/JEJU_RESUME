@@ -27,23 +27,23 @@
     top:100px;
 
   }
-  .banner .title h2{
+  .banner .title h2 ,.kb_star .banner .title h2{
     font-size: 3.3rem/*60px*/;
     font-weight: 900;
     line-height: 1;
   }
-  .banner .title p {
+  .banner .title p, .kb_star .banner .title p {
     font-size: 1.25rem;
     padding-top: 4px;
   }
-  .banner .con {
+  .banner .con ,.kb_star .banner .con {
     margin-top: 0;
     display: flex;
     flex-direction: row-reverse;
   }
   .banner .con  .moc {
   }
-  .banner .con  .moc .pic{
+  .banner .con  .moc .pic, .kb_star .banner .con  .moc .pic{
     width: 680px;
     /* margin: 0 auto; */
     margin-left:auto ;
@@ -185,6 +185,10 @@
 
 .background {
   background-color: #fde9e2;
+  fffae5
+}
+.kb_star .background {
+  background-color: #fffae5
  
 }
 .section3 {
@@ -202,17 +206,21 @@
 .section3 .col {
 }
 
-.section3 .col .row {
+.section3 .col .row ,.kb_star .section3 .col .row {
 display: flex;
 align-items: center;
 justify-content: space-between;
 flex-direction: row;
 margin-bottom: 6rem;
 }
-.section3 .col .row:nth-child(2n){
+.section3 .col .row:nth-child(2n), .kb_star .section3 .col .row:nth-child(2n){
   flex-direction: row-reverse;
 }
-.section3 .col .row:not(:last-child):after {
+.section3 .col .row:nth-child(4) .pic img{
+  border-radius: 90px 0 90px 0;
+  box-shadow: 0 0 12px rgba(106, 106, 106, 0.1);
+}
+.section3 .col .row:not(:last-child):after, .kb_star .section3 .col .row:not(:last-child):after {
 content: none;
 /* display: block;
 width: 100%;
@@ -220,20 +228,20 @@ height: 1px;
 background-color: #ddd;
 margin-top:10%; */
 }
-.section3 .col .row .pic {
+.section3 .col .row .pic, .kb_star .section3 .col .row .pic {
   width: calc((100% - 40px) / 2);
 vertical-align: top;
 }
-.section3 .col .row .pic img {
+.section3 .col .row .pic img ,.kb_star .section3 .col .row .pic img {
 width: 100%;
 }
-.section3 .col .row .info {
+.section3 .col .row .info, .kb_star .section3 .col .row .info {
   width: calc((100% - 40px) / 2);
 }
-.section3 .col .row .info h4 {
+.section3 .col .row .info h4,.kb_star .section3 .col .row .info h4 {
 padding-bottom: 0.75rem;/*12*/
 }
-.section3 .col .row .info .box {
+.section3 .col .row .info .box , .kb_star .section3 .col .row .info .box {
 /* background-color: #fde9e2; */
 background-color: #fff;
 padding: 1rem;
