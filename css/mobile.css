@@ -133,8 +133,7 @@ header .wrap .h_txt  {
     padding:12px 28px;
     border: 1.5px solid #F15A22;
     border-radius: 12px;
-    transition: background-color .3s;
-    
+    transition: background-color .3s;   
 }
 .banner .con  .sub .web span {
     color: #F15A22;
@@ -147,6 +146,29 @@ header .wrap .h_txt  {
 .banner .con  .sub .web:hover span {
     color: #fff;
 }
+.web {
+    display:block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    /* margin:20px auto 0; */
+    padding:12px 28px;
+    border: 1.5px solid #F15A22;
+    border-radius: 12px;
+    transition: background-color .3s;   
+}
+.web span {
+    color: #F15A22;
+    font-size: 1.375rem;/*22px*/
+    font-weight: 500;
+}
+.web:hover {
+    background-color: #F15A22;
+}
+ .web:hover span {
+    color: #fff;
+}
+
 /* banner */
 section {
     padding: 0 16px;

@@ -56,7 +56,12 @@
   .banner .con .sub .web {
     border-radius: 60px;
   }
-
+  .web {
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 500px;
+  }
   section .main_title {
     margin-bottom: 44px;
 }
