@@ -576,8 +576,8 @@ section .sub_title span {
     color: #ffcc00;
     background-image: linear-gradient(
         rgba(0 0 0 / 0) 60%,
-        #fde9e2 60%,
-        #fde9e2 90%,
+        #fff5cc 60%,
+        #fff5cc 90%,
         #ffff 90%
     );
 }
