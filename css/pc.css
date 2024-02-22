@@ -27,23 +27,23 @@
     top:100px;
 
   }
-  .banner .title h2 ,.kb_star .banner .title h2{
+  .banner .title h2{
     font-size: 3.3rem/*60px*/;
     font-weight: 900;
     line-height: 1;
   }
-  .banner .title p, .kb_star .banner .title p {
+  .banner .title p {
     font-size: 1.25rem;
     padding-top: 4px;
   }
-  .banner .con ,.kb_star .banner .con {
+  .banner .con{
     margin-top: 0;
     display: flex;
     flex-direction: row-reverse;
   }
   .banner .con  .moc {
   }
-  .banner .con  .moc .pic, .kb_star .banner .con  .moc .pic{
+  .banner .con  .moc .pic{
     width: 680px;
     /* margin: 0 auto; */
     margin-left:auto ;
@@ -53,12 +53,8 @@
     align-self: flex-end;
     margin-bottom: 80px;
   }
-  .banner .con .sub .web,  .kb_star .banner .con .sub .web {
+  .banner .con .sub .web {
     border-radius: 60px;
-  }
-  .kb_star .web {
-    margin: 60px auto;
-    width: 500px;
   }
   .web  {
     margin: 0 auto;
@@ -142,9 +138,6 @@
   }
   .section2 .con .item .item_inner .box01 .cell>div .icons{}
   .section2 .con .item .item_inner .box01 .cell>div .graphic{}
-  .kb_star .section2 .con .item .item_inner .box01 .cell>div .graphic img {
-    width: 60%;
-  }
   .section2 .con .item .item_inner .box01 .cell>div div img{} 
   .section2 .con .item .box01 img{
       width: 84%;
@@ -191,10 +184,6 @@
 .background {
   background-color: #fde9e2;
 }
-.kb_star .background {
-  background-color: #fffae5;
- 
-}
 .section3 {
   
 }
@@ -210,21 +199,20 @@
 .section3 .col {
 }
 
-.section3 .col .row ,.kb_star .section3 .col .row {
+.section3 .col .row {
 display: flex;
 align-items: center;
 justify-content: space-between;
 flex-direction: row;
 margin-bottom: 6rem;
 }
-.section3 .col .row:nth-child(2n), .kb_star .section3 .col .row:nth-child(2n){
+.section3 .col .row:nth-child(2n){
   flex-direction: row-reverse;
 }
 .section3 .col .row:nth-child(4) .pic img{
-  border-radius: 90px 0 90px 0;
   box-shadow: 0 0 12px rgba(106, 106, 106, 0.1);
 }
-.section3 .col .row:not(:last-child):after, .kb_star .section3 .col .row:not(:last-child):after {
+.section3 .col .row:not(:last-child):after {
 content: none;
 /* display: block;
 width: 100%;
@@ -252,5 +240,27 @@ padding: 1rem;
 border-radius: 8px;
 }
   
+.site {
+  padding: 100px 0;
+  background-color: #F15A22;
+}
+.site .web {
+  background-color: #fff;
+  border: none;
+  width: 500px;
+  margin:0 auto
+}
+.site .web:hover {
+  box-shadow: 0 0 12px rgba(83, 39, 2, 0.6);
+}
+.site .web span {
+  transition: all .2s;
+  display: inline-block;
+}
+.site .web:hover span {
+ transform: scale(1.1);
+ font-weight: 600;
+ color: #F15A22;
+}
 
 }/*pc 끝 */
