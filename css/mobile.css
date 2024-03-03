@@ -337,7 +337,7 @@ section .sub_title span {
     padding: 20px;
     background-image: linear-gradient(
     90deg,
-    rgba(241 90 41/.02) 0%, #fcd7ca  100% /*fcd7ca 35*/ /*fffbfa 45*/ /*fde9e2 40*/
+    rgba(241 90 41/.02) 0%, #fee8e1  100% /*fcd7ca 35*/ /*fffbfa 45*/ /*fde9e2 40*/
    );
     border-radius: 8px;
     margin-bottom: 16px;
@@ -364,12 +364,9 @@ section .sub_title span {
     font-size: 0.875rem;
     line-height: 1.5;
     text-align: left;
+    font-weight: 700;
 }
-.section1 .row3 .con2 p span {
-    background-color: #fff;
-    color: #F15A22;
-    font-weight: 500;
-    padding: 2px;    
+.section1 .row3 .con2 p span {  
 }
 .section1 .row3 .result {
     color: #F15A22;
