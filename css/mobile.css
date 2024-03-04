@@ -484,5 +484,6 @@ section .sub_title span {
 }
 .section3 .col .row .info .box  p{
     color: #888;
+    line-height: 1.5;
 }
 
