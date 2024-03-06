@@ -4,12 +4,7 @@ $('.top').click(function(){
     },800)
 });
 
-var savedScrollPosition = sessionStorage.getItem('scrollPosition');
 
-// 이전 페이지에서 저장된 위치로 스크롤 이동
-if (savedScrollPosition !== null) {
-    $(window).scrollTop(savedScrollPosition);
-}
 
 $('.h_txt').click(function(){
     // 현재 스크롤 위치를 세션 스토리지에 저장
